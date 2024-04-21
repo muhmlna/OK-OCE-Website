@@ -12,6 +12,7 @@ import Marchendise from "./containers/Marchendise";
 import Pelatihan from "./containers/Pelatihan";
 import Pendampingan from "./containers/Pendampingan";
 import Faq from "./containers/Faq";
+import Brandlokal from "./containers/Brandlokal";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/pendampingan" element={<Pendampingan />} />
           <Route path="/pelatihan" element={<Pelatihan />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/brandlokal" element={<Brandlokal />} />
         </Routes>
       </BrowserRouter>
     </>
