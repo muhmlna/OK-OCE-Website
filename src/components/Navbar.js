@@ -459,8 +459,8 @@ function Navbar() {
 
                 {/*Dropdown menu */}
                 <div
-                  className={
-                    "absolute z-100 font-normal divide-y divide-gray-100 rounded-lg top-[4.3rem] w-44 drop-shadow-lg dark:bg-white dark:divide-gray-600 " +
+                  class={
+                    "absolute z-100 font-normal divide-y divide-gray-100 rounded-lg top-[4.3rem] w-44 drop-shadow-lg bg-gray-400 " +
                     (dropdownVisible ? "" : "hidden")
                   }>
                   <ul

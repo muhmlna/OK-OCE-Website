@@ -11,13 +11,17 @@ import Seventop from "./containers/Seventop";
 import Marchendise from "./containers/Marchendise";
 import Pelatihan from "./containers/Pelatihan";
 import Pendampingan from "./containers/Pendampingan";
-import Faq from "./containers/Faq";
-import Brandlokal from "./containers/Brandlokal";
+
+import PeluangUsaha from "./containers/PeluangUsaha";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import PeluangKerja from "./containers/PeluangKerja";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/sejarah" element={<Sejarah />} />
@@ -30,9 +34,11 @@ function App() {
           <Route path="/marchendise" element={<Marchendise />} />
           <Route path="/pendampingan" element={<Pendampingan />} />
           <Route path="/pelatihan" element={<Pelatihan />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/brandlokal" element={<Brandlokal />} />
+          <Route path="/peluangusaha" element={<PeluangUsaha />} />
+          <Route path="/peluangkerja" element={<PeluangKerja />} />
+
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
