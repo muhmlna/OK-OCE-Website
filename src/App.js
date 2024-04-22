@@ -15,6 +15,7 @@ import PeluangUsaha from "./containers/PeluangUsaha";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import PeluangKerja from "./containers/PeluangKerja";
+import Brandlokal from "./containers/Brandlokal";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
           <Route path="/pelatihan" element={<Pelatihan />} />
           <Route path="/peluangusaha" element={<PeluangUsaha />} />
           <Route path="/peluangkerja" element={<PeluangKerja />} />
+          <Route path="/brandlokal" element={<Brandlokal />} />
+
         </Routes>
         <Footer />
       </BrowserRouter>
