@@ -28,7 +28,6 @@ import PelaporanKeuangan from "./containers/PelaporanKeuangan";
 import Pemasaran from "./containers/Pemasaran";
 import Permodalan from "./containers/Permodalan";
 
-
 function App() {
   return (
     <>
