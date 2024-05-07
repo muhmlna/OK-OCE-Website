@@ -15,6 +15,8 @@ import PeluangUsaha from "./containers/PeluangUsaha";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import PeluangKerja from "./containers/PeluangKerja";
+import Event from "./containers/Event";
+import Detailevent from "./containers/detailevent";
 
 function App() {
   return (
@@ -35,6 +37,9 @@ function App() {
           <Route path="/pelatihan" element={<Pelatihan />} />
           <Route path="/peluangusaha" element={<PeluangUsaha />} />
           <Route path="/peluangkerja" element={<PeluangKerja />} />
+          <Route path="/event" element={<Event />} />
+          <Route path="/detailevent" element={<Detailevent />} />
+
         </Routes>
         <Footer />
       </BrowserRouter>
