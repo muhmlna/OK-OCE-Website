@@ -11,12 +11,22 @@ import Seventop from "./containers/Seventop";
 import Marchendise from "./containers/Marchendise";
 import Pelatihan from "./containers/Pelatihan";
 import Pendampingan from "./containers/Pendampingan";
+import Faq from "./containers/Faq";
 import PeluangUsaha from "./containers/PeluangUsaha";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "@components/Navbar";
+import Footer from "@components/Footer";
 import PeluangKerja from "./containers/PeluangKerja";
-import Event from "./containers/Event";
-import Detailevent from "./containers/detailevent";
+import LokalBrand from "./containers/LokalBrand";
+import Modalberkah from "./containers/Modalberkah";
+import Masjidpemberdaya from "./containers/Masjidpemberdaya";
+import Donasi from "./containers/Donasi";
+import Magang from "./containers/Magang";
+import Emakkece from "./containers/Emakkece";
+import Mastermentor from "./containers/Mastermentor";
+import Perizinan from "./containers/Perizinan";
+import PelaporanKeuangan from "./containers/PelaporanKeuangan";
+import Pemasaran from "./containers/Pemasaran";
+import Permodalan from "./containers/Permodalan";
 
 function App() {
   return (
@@ -35,14 +45,25 @@ function App() {
           <Route path="/marchendise" element={<Marchendise />} />
           <Route path="/pendampingan" element={<Pendampingan />} />
           <Route path="/pelatihan" element={<Pelatihan />} />
+          <Route path="/faq" element={<Faq />} />
           <Route path="/peluangusaha" element={<PeluangUsaha />} />
           <Route path="/peluangkerja" element={<PeluangKerja />} />
-          <Route path="/event" element={<Event />} />
-          <Route path="/detailevent" element={<Detailevent />} />
+          <Route path="/lokalbrand" element={<LokalBrand />} />
+          <Route path="/modalberkah" element={<Modalberkah />} />
+          <Route path="/masjidpemberdaya" element={<Masjidpemberdaya />} />
+          <Route path="/donasi" element={<Donasi />} />
+          <Route path="/magang" element={<Magang />} />
+          <Route path="/emakkece" element={<Emakkece />} />
+          <Route path="/perizinan" element={<Perizinan />} />
+          <Route path="/pelaporankeuangan" element={<PelaporanKeuangan />} />
+          <Route path="/pemasaran" element={<Pemasaran />} />
+          <Route path="/permodalan" element={<Permodalan />} />
+          <Route path="/mastermentor" element={<Mastermentor/>} />
 
         </Routes>
         <Footer />
       </BrowserRouter>
+
     </>
   );
 }
