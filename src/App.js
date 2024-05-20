@@ -27,6 +27,8 @@ import Perizinan from "./containers/Perizinan";
 import PelaporanKeuangan from "./containers/PelaporanKeuangan";
 import Pemasaran from "./containers/Pemasaran";
 import Permodalan from "./containers/Permodalan";
+import Event from "./containers/Event";
+import Thementor from "./containers/Thementor";
 
 function App() {
   return (
@@ -59,6 +61,9 @@ function App() {
           <Route path="/pemasaran" element={<Pemasaran />} />
           <Route path="/permodalan" element={<Permodalan />} />
           <Route path="/mastermentor" element={<Mastermentor/>} />
+          <Route path="/event" element={<Event/>} />
+          <Route path="/thementor" element={<Thementor/>} />
+
 
         </Routes>
         <Footer />
