@@ -20,6 +20,16 @@ const Masjidpemberdaya = () => {
 
 
             </div>
+
+            <div className="flex z-10 flex-col self-center px-20 py-11 mt-0 w-full text-center text-black bg-white rounded-3xl shadow-sm max-w-[1215px] max-md:px-5 max-md:max-w-full">
+                <div className="self-center text-5xl font-bold leading-[57.6px] max-md:max-w-full max-md:text-4xl">
+                    PROGRAM MASJID PEMBERDAYA
+                </div>
+                <div className="self-end mt-6 text-xl leading-8 max-md:max-w-full">
+                    Merupakan Pengembangan Kewirausahaan Terpadu Menggunakan Kurikulum 7 Top
+                    Berbasis Masjid{" "}
+                </div>
+            </div>
         </>
     );
 }

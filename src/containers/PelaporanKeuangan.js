@@ -4,8 +4,8 @@ import Wtp from "@img/wtp-e1685866203725 1.png"
 import Image1 from "@img/7 top/pelaporankeuangan/image 8.png"
 import Laba from "@img/7 top/pelaporankeuangan/laba.png"
 import Neraca from "@img/7 top/pelaporankeuangan/neraca.png"
-import Kas from "@img/7 top/pelaporankeuangan/kas.png"
-import Catatan from "@img/7 top/pelaporankeuangan/catatan.png"
+import Kas from "@img/7 top/pelaporankeuangan/arus kas.png"
+import Catatan from "@img/7 top/pelaporankeuangan/keuangan.png"
 import Pajak from "@img/7 top/pelaporankeuangan/pajak.png"
 
 
@@ -36,18 +36,28 @@ const PelaporanKeuangan = () => {
                 </div>
             </div>
 
-            <div class="grid place-items-center bg-white m-6 pb-10">
-                <div class="p-10 grid grid-cols-2 gap-60 justify-items-center">
-                    <div>
-                        <img class="h-auto max-h-[100rem]" src={Wtp} alt="" />
+            <section class="flex justify-center items-center pb-20 pt-10">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-10">
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="h-auto max-h-[10rem] items-center" src={Wtp} alt=""/>
+                                <p class="text-center font-bold text-500">-</p>
+                            </div>
+                        </div>        
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Image1} alt="" />
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="h-auto max-h-[10rem]" src={Image1} alt=""/>
+                                <p class="text-center font-bold text-500">-</p>
+                            </div>
+                        </div>        
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="flex flex-col items-center px-16 pt-20 bg-white max-md:px-5">
+            <div className="flex flex-col items-center pt-20 bg-white max-md:px-5">
                 <div className="flex flex-col w-full max-w-[1096px] max-md:max-w-full">
                     <div className="self-center text-4xl font-bold leading-10 text-center text-black">
                     Pelaporan Keuangan
@@ -60,40 +70,50 @@ const PelaporanKeuangan = () => {
                 </div>
             </div>
 
-            <div class="grid place-items-center bg-white m-6 pb-10">
-                <div class="p-10 grid grid-cols-5 gap-10 justify-items-center">
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Laba} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full pt-10">
-                            Laporan Laba Rugi
-                        </div>
+            <section class="flex justify-center items-center pb-20 pt-10">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10">
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="h-20 center" src={Laba} alt=""/>
+                                <p class="text-center font-bold text-500">Laporan Laba Rugi</p>
+                            </div>
+                        </div>        
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Neraca} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full pt-10">
-                            Laporan Neraca
-                        </div>
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="h-20 center" src={Neraca} alt=""/>
+                                <p class="text-center font-bold text-500">Laporan Neraca</p>
+                            </div>
+                        </div>        
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Kas} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full pt-10">
-                            Laporan Arus Kas
-                        </div>
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="h-20 center" src={Kas} alt=""/>
+                                <p class="text-center font-bold text-500">Laporan Arus Kas</p>
+                            </div>
+                        </div>        
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Catatan} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full pt-10">
-                            Catatan Laporan Keuangan
-                        </div>
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="h-20 center" src={Catatan} alt=""/>
+                                <p class="text-center font-bold text-500">Catatan Laporan Keuangan</p>
+                            </div>
+                        </div>        
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Pajak} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full pt-10">
-                            Laporan Pajak
-                        </div>
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="h-20 center" src={Pajak} alt=""/>
+                                <p class="text-center font-bold text-500">Laporan Pajak</p>
+                            </div>
+                        </div>        
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 }

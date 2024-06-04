@@ -45,88 +45,90 @@ const Pendampingan = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col items-center px-16 pt-20 bg-white max-md:px-5">
+            <div className="flex flex-col items-center pt-20 bg-white max-md:px-5">
                 <div className="flex flex-col w-full max-w-[1096px] max-md:max-w-full">
-                    <div className="self-center text-4xl font-bold leading-10 text-center text-black">
-                    Pendampingan
+                    <div className="text-center text-4xl font-bold text-okoce-blue pt-16">
+                        Pendampingan
                     </div>
                     <div className="mt-8 text-lg leading-7 text-center text-black max-md:max-w-full">
-                    Melalui OK OCE, usaha Sobat akan mendapatkan fasilitas pendampingan Oleh Mentor OK OCE dalam kegiatan pemasaran, permodalan, laporan keuangan, 
-                    konsultasi ide-ide kreatif dan inovatif, perubahan mindset kewirausahaan, mencari penyelesaian permasalahan usaha, hingga pembentukan karakter 
-                    untuk menjadi UMKM Naik Kelas. Fasilitas tersebut dapat diakses melalui sistem OK OCE pada kolom Inkubasi Usaha, Chat Mentor, maupun Kolaborator.
+                        Melalui OK OCE, usaha Sobat akan mendapatkan fasilitas pendampingan Oleh Mentor OK OCE dalam kegiatan pemasaran, permodalan, laporan keuangan, 
+                        konsultasi ide-ide kreatif dan inovatif, perubahan mindset kewirausahaan, mencari penyelesaian permasalahan usaha, hingga pembentukan karakter 
+                        untuk menjadi UMKM Naik Kelas. Fasilitas tersebut dapat diakses melalui sistem OK OCE pada kolom Inkubasi Usaha, Chat Mentor, maupun Kolaborator.
                     </div>
                 </div>
             </div>
 
-            <div class="grid place-items-center bg-white m-6 pb-10">
-                <div class="p-10 grid grid-cols-3 gap-20 justify-items-center">
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Usaha} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            Inkubasi Usaha
-                        </div>
+            <section class="flex justify-center items-center pb-20 pt-10">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="w-56" src={Usaha} alt=""/>
+                                <p class="text-center font-bold text-red-500">Inkubasi Usaha</p>
+                            </div>
+                        </div>        
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Chat} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            Chat Mentor
-                        </div>
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="w-56" src={Chat} alt=""/>
+                                <p class="text-center font-bold text-red-500">Chat Mentor</p>
+                            </div>
+                        </div>        
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Kolaborator} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            Kolaborator
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex flex-col items-center px-16 pt-20 bg-white max-md:px-5">
-                <div className="flex flex-col w-full max-w-[1096px] max-md:max-w-full">
-                    <div className="self-center text-4xl font-bold leading-10 text-center text-black">
-                    Para Kolaborator
+                    <div class="bg-white hover:scale-105 duration-300">
+                        <div class="flex flex-col items-center md:flex-row py-5 justify-center">
+                            <div class="pr-0 md:pr-10">
+                                <img class="w-56" src={Kolaborator} alt=""/>
+                                <p class="text-center font-bold text-red-500">Kolaborator</p>
+                            </div>
+                        </div>        
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="p-10 grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
-                        <div>
-                            <img class="h-auto max-w-full" src={Az} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Ck} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Edu} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Ekles} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Indivara} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Inotek} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Jnj} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Kk} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Smeshub} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Pajak} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Travel} alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full" src={Wgs} alt="" />
-                        </div>
-                    </div>
+            <div>
+                <h1 class="text-center text-4xl font-bold text-okoce-blue pt-20">Para Kolaborator</h1>
+            </div>
+            
+            <div class="p-10 pt-10 grid grid-cols-1 md:grid-cols-4 gap-6 justify-items-center">
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Az} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Ck} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Edu} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Ekles} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Indivara} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Inotek} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Jnj} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Kk} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Smeshub} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Pajak} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Travel} alt="" />
+                </div>
+                <div class="hover:scale-105 duration-300">
+                    <img class="h-auto max-w-full" src={Wgs} alt="" />
+                </div>
+            </div>
         </>
     );
 }

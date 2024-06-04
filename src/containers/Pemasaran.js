@@ -1,11 +1,9 @@
 import React from "react";
 import Top from "@img/7top-rb.webp";
-import Halal from "@img/7 top/perizinan/izin-sertifikasi-halal.png"
-import Berusaha from "@img/7 top/perizinan/nomer-izin-berusaha.png"
-import Kosmetik from "@img/7 top/perizinan/izin-sertifikasi-kosmetik.png"
-import Pangan from "@img/7 top/perizinan/izin-sertifikasi-pangan.png"
-import Haki from "@img/7 top/perizinan/haki.png"
-import Pkrt from "@img/7 top/perizinan/sertifikasi-pkrt.png"
+import Materi from "@img/HeaderKerja.png";
+import Kopi from "@img/7 top/pemasaran/kopi.png";
+import Donat from "@img/7 top/pemasaran/donat.png";
+import Kuker from "@img/7 top/pemasaran/kuker.png";
 
 
 
@@ -47,48 +45,186 @@ const Pemasaran = () => {
                 </div>
             </div>
 
-            <div class="grid place-items-center bg-white m-6 pb-10">
-                <div class="p-10 grid grid-cols-3 gap-60 justify-items-center">
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Halal} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            Izin sertifikasi Halal
+            <section class="flex justify-center items-center pb-20 pt-5">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://www.youtube.com/watch?v=GZqmMOOOcak">
+                            <img
+                                class="h-50 w-72 object-cover"
+                                srcSet={Kopi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <p class="text-gray-400 uppercase text-sm text-center">
+                                OK OCE Indonesia
+                            </p>
+                            <p class="text-lg font-bold block text-center truncate capitalize">Kelas Jadi Barista! Belajar jadi Berista bikin kopi enak</p>
                         </div>
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Berusaha} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            Nomor Izin Berusaha
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://www.youtube.com/watch?v=6cOFzd6LorA">
+                            <img
+                                class="h-50 w-72 object-cover"
+                                srcSet={Donat}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <span class="text-gray-400 uppercase text-sm">
+                                OK OCE Indonesia
+                            </span>
+                            <p class="text-lg font-bold block capitalize">Belajar Bikin Donat Bersama OK OCE Indonesia</p>
                         </div>
                     </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Kosmetik} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            Izin sertifikasi Kosmetik
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://www.youtube.com/watch?v=BcTqflOQb8Y">
+                            <img
+                                class="h-50 w-72 object-cover"
+                                srcSet={Kuker}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <span class="text-gray-400 uppercase text-sm">
+                                OK OCE Indonesia
+                            </span>
+                            <p class="text-lg font-bold block capitalize">Sambut Hari Raya Idul Fitri, OK OCE GAN Gelar Pelatihan Kue Kering</p>
                         </div>
                     </div>
                 </div>
-                <div class="p-10 grid grid-cols-3 gap-60 justify-items-center">
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Pangan} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            Izin sertifikasi Pangan
-                        </div>
-                    </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Haki} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            Izin sertifikasi HAKI
-                        </div>
-                    </div>
-                    <div>
-                        <img class="h-auto max-h-[10rem]" src={Pkrt} alt="" />
-                        <div className="mt-2 text-lg leading-7 text-center text-black max-md:max-w-full">
-                            izin sertifikasi PKRT
-                        </div>
-                    </div>
-                </div>
+            </section>
+
+            <div>
+                <h1 class="text-center text-4xl font-bold text-okoce-blue pt-20">Katalog Produk</h1>
             </div>
+
+            <section class="flex justify-center items-center pb-20 pt-10">
+                <div class="grid grid-cols-1 md:grid-cols- lg:grid-cols-4 gap-10">
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://okoce.net/">
+                            <img
+                                class="h-72 w-72 object-cover"
+                                srcSet={Materi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <p class="text-gray-400 uppercase text-sm text-center">
+                                OK OCE Indonesia
+                            </p>
+                            <p class="text-lg font-bold block text-center truncate capitalize">Kembang Loyang</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://okoce.net/">
+                            <img
+                                class="h-72 w-72 object-cover"
+                                srcSet={Materi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <p class="text-gray-400 uppercase text-sm text-center">
+                                OK OCE Indonesia
+                            </p>
+                            <p class="text-lg font-bold block text-center truncate capitalize">Panir Bawang</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://okoce.net/">
+                            <img
+                                class="h-72 w-72 object-cover"
+                                srcSet={Materi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <p class="text-gray-400 uppercase text-sm text-center">
+                                OK OCE Indonesia
+                            </p>
+                            <p class="text-lg font-bold block text-center truncate capitalize">Nasi Kotak</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://okoce.net/">
+                            <img
+                                class="h-72 w-72 object-cover"
+                                srcSet={Materi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <p class="text-gray-400 uppercase text-sm text-center">
+                                OK OCE Indonesia
+                            </p>
+                            <p class="text-lg font-bold block text-center truncate capitalize">Kopi Blend EMOTIKOPI</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://okoce.net/">
+                            <img
+                                class="h-72 w-72 object-cover"
+                                srcSet={Materi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <p class="text-gray-400 uppercase text-sm text-center">
+                                OK OCE Indonesia
+                            </p>
+                            <p class="text-lg font-bold block text-center truncate capitalize">Kopi Blend EMOTIKOPI</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://okoce.net/">
+                            <img
+                                class="h-72 w-72 object-cover"
+                                srcSet={Materi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <p class="text-gray-400 uppercase text-sm text-center">
+                                OK OCE Indonesia
+                            </p>
+                            <p class="text-lg font-bold block truncate capitalize">Nasi Kotak</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://okoce.net/">
+                            <img
+                                class="h-72 w-72 object-cover"
+                                srcSet={Materi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <span class="text-gray-400 uppercase text-sm text-center">
+                                OK OCE Indonesia
+                            </span>
+                            <p class="text-lg font-bold block truncate capitalize">Panir Bawang</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md hover:scale-105 duration-300">
+                        <a href="https://okoce.net/">
+                            <img
+                                class="h-72 w-72 object-cover"
+                                srcSet={Materi}
+                                alt=""
+                            />
+                        </a>
+                        <div class="px-4 py-3 w-72">
+                            <span class="text-gray-400 uppercase text-sm">
+                                OK OCE Indonesia
+                            </span>
+                            <p class="text-lg font-bold block text-center truncate capitalize">Kembang Loyang</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
         </>
     );
 }
