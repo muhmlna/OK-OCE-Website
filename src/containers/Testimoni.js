@@ -20,19 +20,19 @@ const Testimoni = () => {
         }}>
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-            Yuk, Mulai Gabung dan Dapatkan Hasil Tambahan dengan daftar 
+            Yuk, Mulai Gabung dan Dapatkan Hasil Tambahan dengan daftar
           </h1>
           <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
             Fondasi kami, idemu, bersama-sama kita maju dan berkembang untuk
-            menciptakan masa depan bersama. 
+            menciptakan masa depan bersama.
           </p>
         </div>
       </section>
 
       {/* Testimoni section */}
       <section className="bg-gray-100 py-12">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-6 text-center">Testimoni</h2>
+        <div className="container my-10 mx-auto px-4">
+          <h2 className="text-4xl font-bold my-14 text-center text-sky-700">Pendapat Mereka Tentang Kami!</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {/* Testimoni item 1 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
@@ -85,7 +85,7 @@ const Testimoni = () => {
               <div className="p-4">
                 <p className="text-gray-700 text-base">
                   "Mereka membantu kami mengubah visi kami menjadi realitas.
-                  Terima kasih banyak!"
+                  Terima kasih banyak OKE OCE INDONESIA!"
                 </p>
               </div>
               <div className="flex items-center justify-between p-4 bg-gray-200">

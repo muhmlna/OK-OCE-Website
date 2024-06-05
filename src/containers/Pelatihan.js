@@ -1,7 +1,6 @@
 import React from "react";
-import Promo from "@img/promo.png";
-import Materi from "@img/HeaderKerja.png";
 import Top from "@img/7top-rb.webp";
+import Materi from "@img/HeaderKerja.png";
 
 const Pelatihan = () => {
     return (
@@ -19,10 +18,10 @@ const Pelatihan = () => {
                     <div className="flex flex-col ml-5 w-[82%] max-md:ml-0 max-md:w-full">
                         <div className="flex flex-col self-stretch p-8 my-auto w-full text-white bg-sky-700 max-md:px-5 max-md:mt-10 max-md:max-w-full">
                             <div className="text-5xl font-bold leading-[57.6px] max-md:max-w-full max-md:text-4xl">
-                            Pelatihan
+                                Pelatihan
                             </div>
                             <div className="mt-4 text-lg leading-7 max-md:max-w-full">
-                            Peserta akan dilatih berdasarkan kurikulum OK OCE dan akan digabungkan ke kelompok inkubasi melalui komunitas penggerak.
+                                Peserta akan dilatih berdasarkan kurikulum OK OCE dan akan digabungkan ke kelompok inkubasi melalui komunitas penggerak.
                             </div>
                         </div>
                     </div>
@@ -44,55 +43,20 @@ const Pelatihan = () => {
                 </div>
             </div>
 
-            <section class="flex justify-center items-center pt-10">
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
-                    <div class="bg-white shadow-md hover:scale-105 duration-300">
-                        <a href="https://okoce.net/">
-                            <img
-                                class="h-80 w-72 object-cover"
-                                srcSet={Promo}
-                                alt=""
-                            />
-                        </a>
-                        <div class="px-4 py-3 w-72">
-                            <span class="text-gray-400 uppercase text-sm">
-                                27-29 Oktober 2023
-                            </span>
-                            <p class="text-lg font-bold block capitalize">Kolaborasi UMKM Strategi Marketing Digital</p>
-                        </div>
-                    </div>
-                    <div class="bg-white shadow-md hover:scale-105 duration-300">
-                        <a href="https://okoce.net/">
-                            <img
-                                class="h-80 w-72 object-cover"
-                                srcSet={Promo}
-                                alt=""
-                            />
-                        </a>
-                        <div class="px-4 py-3 w-72">
-                            <span class="text-gray-400 uppercase text-sm">
-                                27-29 Mei 2024
-                            </span>
-                            <p class="text-lg font-bold block capitalize">Pelatihan Master Mentor untuk Penggeral OK OCE</p>
-                        </div>
-                    </div>
-                    <div class="bg-white shadow-md hover:scale-105 duration-300">
-                        <a href="https://okoce.net/">
-                            <img
-                                class="h-80 w-72 object-cover"
-                                srcSet={Promo}
-                                alt=""
-                            />
-                        </a>
-                        <div class="px-4 py-3 w-72">
-                            <span class="text-gray-400 uppercase text-sm">
-                                27-29 Juli 2024
-                            </span>
-                            <p class="text-lg font-bold block capitalize">Optimasi Bisnis agar Maksimal Penjualannya</p>
+            <div class="flex items-center justify-center min-h-screen container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="rounded-xl shadow-lg">
+                        <div class="p-5 flex flex-col">
+                            <div class="rounded-xl overflow-hidden">
+                                <img src="" alt="" />
+                            </div>
+                            <h5 class="text-2xl md:text-3xl font-medium mt-3">Kolaborasi UKM Strategi Marketing Digital</h5>
+                            <p class="text-slate-500 text-lg mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="https://id.wikipedia.org/wiki/Lorem_ipsum" class="text-center bg-blue-400 text-blue-700 py-2 rounded-lg font semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out">Daftar</a>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
             
             <div id="pelatihan-body" class="w-full pt-20 pb-10 font-poppins flex justify-center bg-white">
                 <div class="w-full lg:w-3/4">

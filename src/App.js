@@ -8,7 +8,7 @@ import Struktur from "./containers/Struktur";
 import Anniversary from "./containers/Anniversary";
 import Penggerak from "./containers/Penggerak";
 import Seventop from "./containers/Seventop";
-import Marchendise from "./containers/Marchendise";
+import Merchendise from "./containers/Merchendise";
 import Pelatihan from "./containers/Pelatihan";
 import Pendampingan from "./containers/Pendampingan";
 import Faq from "./containers/Faq";
@@ -26,6 +26,16 @@ import Perizinan from "./containers/Perizinan";
 import PelaporanKeuangan from "./containers/PelaporanKeuangan";
 import Pemasaran from "./containers/Pemasaran";
 import Permodalan from "./containers/Permodalan";
+import Testimoni from "./containers/Testimoni";
+import MasterMentor from "./containers/MasterMentor";
+import Trainer from "./containers/Trainer";
+import Event from "./containers/Event";
+import Mentor from "./containers/Mentor";
+import Mitrakerjasama from "./containers/Mitrakerjasama";
+import Desapreneur from "./containers/Desapreneur";
+import EventDetail from "./containers/EventDetail";
+import DaftarBerita from "./containers/DaftarBerita";
+import BeritaDetail from "./containers/BeritaDetail";
 
 function App() {
   return (
@@ -41,10 +51,11 @@ function App() {
           <Route path="/penggerak" element={<Penggerak />} />
           <Route path="/anniversary" element={<Anniversary />} />
           <Route path="/7top" element={<Seventop />} />
-          <Route path="/marchendise" element={<Marchendise />} />
+          <Route path="/merchendise" element={<Merchendise />} />
           <Route path="/pendampingan" element={<Pendampingan />} />
           <Route path="/pelatihan" element={<Pelatihan />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/testimoni" element={<Testimoni />} />
           <Route path="/peluangusaha" element={<PeluangUsaha />} />
           <Route path="/peluangkerja" element={<PeluangKerja />} />
           <Route path="/lokalbrand" element={<LokalBrand />} />
@@ -57,10 +68,18 @@ function App() {
           <Route path="/pelaporankeuangan" element={<PelaporanKeuangan />} />
           <Route path="/pemasaran" element={<Pemasaran />} />
           <Route path="/permodalan" element={<Permodalan />} />
-        </Routes>
+          <Route path="/mastermentor" element={<MasterMentor />} />
+          <Route path="/trainer" element={<Trainer />} />
+          <Route path="/event" element={<Event />} />
+          <Route path="/mentor" element={<Mentor />} />
+          <Route path="/mitrakerjasama" element={<Mitrakerjasama />} />
+          <Route path="/desapreneur" element={<Desapreneur />} />
+          <Route path="/event/:id" element={<EventDetail />} />
+          <Route path="/daftarberita" element={<DaftarBerita />} />
+          <Route path="/daftarberita/:id" element={<BeritaDetail />} />
+        </Routes >
         <Footer />
-      </BrowserRouter>
-
+      </BrowserRouter >
     </>
   );
 }
